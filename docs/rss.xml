@@ -6,7 +6,7 @@
     <description>Latest posts from ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞</description>
     <language>en-ca</language>
     <generator>Custom Static Site Generator</generator>
-    <lastBuildDate>Mon, 02 Jun 2025 00:01:12 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 02 Jun 2025 00:34:42 -0700</lastBuildDate>
     <atom:link href="https://continuum.codeberg.page/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search</title>
@@ -82,7 +82,7 @@
       <title>Colophon</title>
       <link>https://continuum.codeberg.page/2022-07-15-colophon.html</link>
       <guid>https://continuum.codeberg.page/2022-07-15-colophon.html</guid>
-      <pubDate>Mon, 02 Jun 2025 00:01:10 -0700</pubDate>
+      <pubDate>Mon, 02 Jun 2025 00:34:42 -0700</pubDate>
       <description>Technical information about this website for the curious.</description>
     </item>
     <item>
