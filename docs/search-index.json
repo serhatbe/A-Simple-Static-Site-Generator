@@ -85,7 +85,7 @@
     "date": "2025-06-01",
     "description": "",
     "tags": "",
-    "content": "A Simple Static Site Generator ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 A Simple Static Site Generator Last update: 2025-06-01 Tags: code bash python A minimal, extensible static site generator using make, pandoc, and shell scripts. It converts Markdown files into styled HTML, supports tags, search indexing, RSS feeds, and versioning. Features Converts Markdown (.md) to standalone HTML using pandoc Custom HTML templates and Lua filters Auto-injected tag links Per-tag HTML pages Bibliography and citations (refs.json + apa.csl) RSS feed generation Search indexing using search_generator.py Timestamped version snapshots Local development server Requirements make pandoc python3 awk, bash, and common Unix tools Pandoc Lua filters (e.g., dropcap.lua, mdlinks.lua, etc.) Directory Structure . ├── content/ │ └── *.md # Source Markdown posts (excluding index.md) ├── pages/ │ └── *.html # Generated HTML files ├── layout/ │ ├── default.html # Main page template │ ├── tag.html # Tag page template │ └── style.css # Site stylesheet ├── scripts/ │ ├── build-index.sh │ ├── build-rss.sh │ ├── build-single-post.sh │ ├── build-tag-pages.sh │ ├── dropcap.lua │ ├── mdlinks.lua │ ├── mermaid.lua │ └── search_generator.py ├── tag_temp/ # Temporary files for tag generation ├── refs.json # Optional bibliography file ├── apa.csl # Optional CSL file for citation formatting ├── Makefile # Build automation with GNU Make └── README.md # Project documentation Setup Create a Python virtual environment. make venv Build the entire site make "
+    "content": "A Simple Static Site Generator ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 A Simple Static Site Generator Last update: 2025-06-01 Tags: code bash python A minimal, extensible static site generator using make, pandoc, and shell scripts. It converts Markdown files into styled HTML, supports tags, search indexing, RSS feeds, and versioning. Features Converts Markdown (.md) to standalone HTML using pandoc Custom HTML templates and Lua filters Auto-injected tag links Per-tag HTML pages Bibliography and citations (refs.json + apa.csl) RSS feed generation Search indexing using search_generator.py Timestamped version snapshots Local development server Requirements make pandoc python3 awk, bash, and common Unix tools Pandoc Lua filters (e.g., dropcap.lua, mdlinks.lua, etc.) Directory Structure . ├── content/ │ └── *.md # Source Markdown posts (excluding index.md) ├── pages/ │ └── *.html # Generated HTML files ├── layout/ │ ├── default.html # Main page template │ ├── tag.html # Tag page template │ └── style.css # Site stylesheet ├── scripts/ │ ├── build-index.sh │ ├── build-rss.sh │ ├── build-single-post.sh │ ├── build-tag-pages.sh │ ├── dropcap.lua │ ├── mdlinks.lua │ ├── mermaid.lua │ └── search_generator.py ├── tag_temp/ # Temporary files for tag generation ├── refs.json # Optional bibliography file ├── apa.csl # Optional CSL file for citation formatting ├── Makefile # Build automation with GNU Make └── README.md # Project documentation Setup Create a Python virtual environment. make venv Run pip install beautifulso"
   },
   {
     "title": "",
@@ -93,7 +93,7 @@
     "date": "2025-06-02",
     "description": "",
     "tags": "",
-    "content": "ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Recently Updated 2022-07-15: Colophon 2023-05-22: Negative Utility 2022-07-15: What I’m up to now 2022-08-07: The Art of Practicing 2025-06-01: A Simple Static Site Generator 2025 2025-06-01: A Simple Static Site Generator 2025-05-22: Virtual Environment Directories 2025-03-17: Package Managers 2024 2024-12-11: Moment of Inertia 2024-12-10: Homebrew 2023 2023-08-11: Bullshit Jobs 2023-05-22: Negative Utility 2022 2022-08-07: The Art of Practicing 2022-07-15: What I’m up to now 2022-07-15: Colophon 2022-07-15: About Tag Cloud – bash bullshit code flow life literature-notes math music non-fiction notes now philosophy python ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+    "content": "ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Recently Updated 2025-06-01: A Simple Static Site Generator 2022-07-15: Colophon 2023-05-22: Negative Utility 2022-07-15: What I’m up to now 2022-08-07: The Art of Practicing 2025 2025-06-01: A Simple Static Site Generator 2025-05-22: Virtual Environment Directories 2025-03-17: Package Managers 2024 2024-12-11: Moment of Inertia 2024-12-10: Homebrew 2023 2023-08-11: Bullshit Jobs 2023-05-22: Negative Utility 2022 2022-08-07: The Art of Practicing 2022-07-15: What I’m up to now 2022-07-15: Colophon 2022-07-15: About Tag Cloud – bash bullshit code flow life literature-notes math music non-fiction notes now philosophy python ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
   },
   {
     "title": "Tag: --",
@@ -109,7 +109,7 @@
     "date": "2025-06-02",
     "description": "",
     "tags": "",
-    "content": "Tag: bash ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: bash A Simple Static Site Generator ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+    "content": "Tag: bash ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: bash A Simple Static Site Generator A Simple Static Site Generator ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
   },
   {
     "title": "Tag: bullshit",
@@ -125,7 +125,7 @@
     "date": "2025-06-02",
     "description": "",
     "tags": "",
-    "content": "Tag: code ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: code Homebrew Package Managers Virtual Environment Directories A Simple Static Site Generator ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+    "content": "Tag: code ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: code Homebrew Package Managers Virtual Environment Directories A Simple Static Site Generator A Simple Static Site Generator ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
   },
   {
     "title": "Tag: flow",
@@ -205,6 +205,6 @@
     "date": "2025-06-02",
     "description": "",
     "tags": "",
-    "content": "Tag: python ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: python Virtual Environment Directories A Simple Static Site Generator ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+    "content": "Tag: python ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: python Virtual Environment Directories A Simple Static Site Generator A Simple Static Site Generator ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
   }
 ]
