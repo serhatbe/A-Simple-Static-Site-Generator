@@ -53,11 +53,12 @@ A minimal, extensible static site generator using `make`, `pandoc`, and shell sc
 ## Setup
 
 1. Create a Python virtual environment. `make venv`
-2. Build the entire site `make`
-3. Serve locally `make serve`
-4. Cleanup `make clean       # Removes generated HTML, CSS, and tag data`
-5. Rebuilding `make rebuild     # Clean and rebuild everything from scratch`
-6. Versioning `make version`
+2. Run `pip install beautifulsoup4`
+3. Build the entire site `make`
+4. Serve locally `make serve`
+5. Cleanup `make clean       # Removes generated HTML, CSS, and tag data`
+6. Rebuilding `make rebuild     # Clean and rebuild everything from scratch`
+7. Versioning `make version`
 
 ## Available Make Targets
 
