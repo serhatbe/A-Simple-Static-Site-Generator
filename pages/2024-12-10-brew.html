@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="generator" content="pandoc 3.7.0.2" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Homebrew</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <meta name="description" content="A few things worth noting." />
+
+  <!-- Mermaid.js support -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+</head>
+<body>
+  <header><h1><a href="index.html">ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞</a></h1></header>
+<h1>Homebrew</h1>
+
+
+<p class="date"><em>Last update: 2025-05-18</em></p>
+
+<main><p><strong>Tags</strong>: <a href="tag-code.html">code</a></p>
+<p><span class="dropcap">H</span>omebrew, a popular package manager for
+macOS and Linux, simplifies software installation, management, and
+removal. It’s known for its ease of use and extensive library of
+packages, called “formulae” (core packages and CLI tools) and “casks”
+(GUI applications). Here are some of the cool things about Homebrew:</p>
+<ul>
+<li>Easy Installation: With Homebrew, you can install software and
+development tools with just one command. No more fussing around!</li>
+<li>Takes Care of Dependencies: Homebrew automatically takes care of all
+the software dependencies, so you don’t have to worry about missing any
+important libraries.</li>
+<li>Lightweight: Homebrew installs packages to their own directory and
+then symlinks their files into <code>/opt/homebrew</code> (on Apple
+Silicon).</li>
+<li>Community-Driven: Thousands of open-source contributors are always
+working on Homebrew, making sure that the packages are up-to-date and
+super secure.</li>
+<li>Extensible with Casks: Homebrew Cask lets you manage GUI
+applications. Just type <code>brew install —cask firefox</code> and
+you’re good to go!</li>
+</ul>
+<h2 id="commands">Commands</h2>
+<ul>
+<li>Updating homebrew on macOS: <code>brew update</code></li>
+<li>Verifying the update: <code>brew --version</code></li>
+<li>Upgrading installed packages: <code>brew upgrade</code></li>
+<li>Cleaning up unused files: <code>brew cleanup</code></li>
+<li>Listing installed packages: <code>brew list</code></li>
+<li>Checking the version of pandoc installed via homebrew:
+<code>brew info pandoc</code></li>
+<li>Force Reinstall: <code>brew reinstall obsidian</code></li>
+<li>Unlink <code>pandoc</code>: <code>brew unlink pandoc</code></li>
+<li>Relink <code>pandoc</code>: <code>brew link pandoc</code></li>
+</ul>
+<h3 id="automate-homebrew-commands">Automate Homebrew Commands</h3>
+<pre><code>#!/bin/bash
+
+set -e  # Exit immediately if a command fails
+
+start_time=$(date +%s)
+
+echo &quot;🔍 Checking for Homebrew updates…&quot;
+brew update
+
+# Capture outdated package list
+outdated=$(brew outdated)
+
+if [[ -z &quot;$outdated&quot; ]]; then
+    echo &quot;✅ No outdated formulas found. Your system is up to date!&quot;
+else
+    echo &quot;📋 Outdated formulas found:&quot;
+    echo &quot;$outdated&quot;
+    
+    read -p &quot;⚠️ Upgrade all formulas and casks? (y/n) &quot; choice
+    if [[ &quot;$choice&quot; =~ ^[Yy]$ ]]; then
+        echo &quot;⬆️ Upgrading formulas and casks…&quot;
+        brew upgrade &amp;&amp; brew upgrade --cask
+        
+        echo &quot;🧹 Running cleanup…&quot;
+        brew cleanup
+    else
+        echo &quot;🚫 Upgrade canceled.&quot;
+        exit 0
+    fi
+fi
+
+elapsed_time=$(( $(date +%s) - start_time ))
+echo &quot;✅ Homebrew maintenance completed in $elapsed_time seconds!&quot;</code></pre>
+<p>Also
+2025-03-17: <a href="2025-03-17-winget.html">Winget</a></p></main>
+    
+<div id="footer">
+<a href="index.html">⌘ Index</a>
+<a href="2022-07-15-about.html">⌘ About</a>
+<a href="2022-07-15-colophon.html">⌘ Colophon</a>
+<a href="2022-07-15-now.html">⌘ Now</a>
+<a href="search.html">⌘ Search</a>
+<a href="rss.xml">⌘ RSS</a>
+</div></body>
+</html>

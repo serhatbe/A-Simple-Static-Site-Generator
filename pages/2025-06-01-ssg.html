@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="generator" content="pandoc 3.7.0.2" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>A Simple Static Site Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <meta name="description" content="A minimal and extensible static site
+generator." />
+
+  <!-- Mermaid.js support -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+</head>
+<body>
+  <header><h1><a href="index.html">ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞</a></h1></header>
+<h1>A Simple Static Site Generator</h1>
+
+
+<p class="date"><em>Last update: 2025-06-01</em></p>
+
+<main><p><strong>Tags</strong>: <a href="tag-code.html">code</a>
+<a href="tag-bash.html">bash</a>
+<a href="tag-python.html">python</a></p>
+<p><span class="dropcap">A</span> minimal, extensible static site
+generator using <code>make</code>, <code>pandoc</code>, and shell
+scripts. It converts Markdown files into styled HTML, supports tags,
+search indexing, RSS feeds, and versioning.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>Converts Markdown (<code>.md</code>) to standalone HTML using
+<code>pandoc</code></li>
+<li>Custom HTML templates and Lua filters</li>
+<li>Auto-injected tag links</li>
+<li>Per-tag HTML pages</li>
+<li>Bibliography and citations (<code>refs.json</code> +
+<code>apa.csl</code>)</li>
+<li>RSS feed generation</li>
+<li>Search indexing using <code>search_generator.py</code></li>
+<li>Timestamped version snapshots</li>
+<li>Local development server</li>
+</ul>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li><code>make</code></li>
+<li><code>pandoc</code></li>
+<li><code>python3</code></li>
+<li><code>awk</code>, <code>bash</code>, and common Unix tools</li>
+<li>Pandoc Lua filters (e.g., <code>dropcap.lua</code>,
+<code>mdlinks.lua</code>, etc.)</li>
+</ul>
+<h2 id="directory-structure">Directory Structure</h2>
+<pre><code>.
+├── content/               
+│   └── *.md               # Source Markdown posts (excluding index.md)
+├── pages/                 
+│   └── *.html             # Generated HTML files
+├── layout/
+│   ├── default.html       # Main page template
+│   ├── tag.html           # Tag page template
+│   └── style.css          # Site stylesheet
+├── scripts/
+│   ├── build-index.sh
+│   ├── build-rss.sh
+│   ├── build-single-post.sh
+│   ├── build-tag-pages.sh
+│   ├── dropcap.lua
+│   ├── mdlinks.lua
+│   ├── mermaid.lua
+│   └── search_generator.py
+├── tag_temp/              # Temporary files for tag generation
+├── refs.json              # Optional bibliography file
+├── apa.csl                # Optional CSL file for citation formatting
+├── Makefile               # Build automation with GNU Make
+└── README.md              # Project documentation</code></pre>
+<h2 id="setup">Setup</h2>
+<ol type="1">
+<li>Create a Python virtual environment. <code>make venv</code></li>
+<li>Build the entire site <code>make</code></li>
+<li>Serve locally <code>make serve</code></li>
+<li>Cleanup
+<code>make clean       # Removes generated HTML, CSS, and tag data</code></li>
+<li>Rebuilding
+<code>make rebuild     # Clean and rebuild everything from scratch</code></li>
+<li>Versioning <code>make version</code></li>
+</ol>
+<h2 id="available-make-targets">Available Make Targets</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Command</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>make</td>
+<td>Build the site: posts, tags, index, RSS, and search index</td>
+</tr>
+<tr>
+<td>make venv</td>
+<td>Set up Python virtual environment</td>
+</tr>
+<tr>
+<td>make search</td>
+<td>Generate index.txt for search (uses search_generator.py)</td>
+</tr>
+<tr>
+<td>make clean</td>
+<td>Remove generated HTML, CSS, XML, and tag temp files</td>
+</tr>
+<tr>
+<td>make clean-all</td>
+<td>Clean everything including the virtual environment</td>
+</tr>
+<tr>
+<td>make serve</td>
+<td>Build and serve at <code>http://localhost:8000</code></td>
+</tr>
+<tr>
+<td>make rebuild</td>
+<td>Clean and rebuild the entire site</td>
+</tr>
+<tr>
+<td>make tags</td>
+<td>Rebuild tag pages only</td>
+</tr>
+<tr>
+<td>make rss</td>
+<td>Generate the RSS feed</td>
+</tr>
+<tr>
+<td>make version</td>
+<td>Snapshot build in versions/pages-<timestamp></td>
+</tr>
+<tr>
+<td>make debug</td>
+<td>Output debug info about paths and variables</td>
+</tr>
+<tr>
+<td>make help</td>
+<td>Show help information</td>
+</tr>
+</tbody>
+</table></main>
+    
+<div id="footer">
+<a href="index.html">⌘ Index</a>
+<a href="2022-07-15-about.html">⌘ About</a>
+<a href="2022-07-15-colophon.html">⌘ Colophon</a>
+<a href="2022-07-15-now.html">⌘ Now</a>
+<a href="search.html">⌘ Search</a>
+<a href="rss.xml">⌘ RSS</a>
+</div></body>
+</html>

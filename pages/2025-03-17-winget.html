@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="generator" content="pandoc 3.7.0.2" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Package Managers</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <meta name="description" content="A few things worth noting." />
+
+  <!-- Mermaid.js support -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+</head>
+<body>
+  <header><h1><a href="index.html">ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞</a></h1></header>
+<h1>Package Managers</h1>
+
+
+<p class="date"><em>Last update: 2025-03-17</em></p>
+
+<main><p><strong>Tags</strong>: <a href="tag-code.html">code</a></p>
+<h2 id="winget-vs.-homebrew">Winget vs. Homebrew</h2>
+<p><strong>winget</strong> (Windows Package Manager) is similar to
+<strong>Homebrew</strong>, but for Windows.</p>
+<pre><code>winget search &lt;package&gt;   # Find packages  
+winget install &lt;package&gt;  # Install packages  
+winget upgrade --all      # Update everything  
+winget list               # See installed packages  
+winget uninstall &lt;package&gt;  # Remove a package</code></pre>
+<h3 id="similarities">Similarities</h3>
+<ul>
+<li>Both allow installing applications with a simple command
+(<code>winget install &lt;package&gt;</code>
+vs. <code>brew install &lt;package&gt;</code>).</li>
+<li>Both handle dependencies automatically.</li>
+<li>Both have repositories (Homebrew uses <strong>Formulae &amp;
+Casks</strong>, while winget uses <strong>Microsoft’s package
+repository</strong>).</li>
+<li>Both allow updating and uninstalling software efficiently.</li>
+</ul>
+<h3 id="differences">Differences</h3>
+<table>
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 33%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr>
+<th>Feature</th>
+<th>winget (Windows)</th>
+<th>Homebrew (macOS/Linux)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Platform</strong></td>
+<td>Windows 10/11</td>
+<td>macOS, Linux</td>
+</tr>
+<tr>
+<td><strong>Default Repository</strong></td>
+<td>Microsoft package repository</td>
+<td>Homebrew Formulae &amp; Casks</td>
+</tr>
+<tr>
+<td><strong>GUI App Support</strong></td>
+<td>Yes (e.g., <code>winget install firefox</code>)</td>
+<td>Yes (<code>brew install --cask firefox</code>)</td>
+</tr>
+<tr>
+<td><strong>Installation</strong></td>
+<td>Comes preinstalled in Windows 11, available for Windows 10</td>
+<td>Must be installed manually</td>
+</tr>
+<tr>
+<td><strong>Software Sources</strong></td>
+<td>Official Microsoft sources, community packages</td>
+<td>Brew repository, community taps</td>
+</tr>
+</tbody>
+</table>
+<h2 id="winget-vs.-scoop">Winget vs. Scoop</h2>
+<p><span class="dropcap">S</span>coop is an alternative package manager
+for Windows that focuses on developer tools and CLI utilities. It’s like
+Homebrew but designed for Windows users who want a Unix-like package
+management experience.</p>
+<h3 id="differences-1">Differences</h3>
+<table>
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 34%" />
+<col style="width: 34%" />
+</colgroup>
+<thead>
+<tr>
+<th>Feature</th>
+<th><strong>winget</strong></th>
+<th><strong>Scoop</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Official support</strong></td>
+<td>Microsoft-backed</td>
+<td>Community-driven</td>
+</tr>
+<tr>
+<td><strong>GUI app support</strong></td>
+<td>Yes (e.g., <code>winget install vlc</code>)</td>
+<td>Mostly CLI apps, but GUI apps via <code>extras</code> bucket</td>
+</tr>
+<tr>
+<td><strong>Default install location</strong></td>
+<td>System-wide (<code>C:\Program Files</code>)</td>
+<td>User folder (<code>C:\Users\YourName\scoop</code>)</td>
+</tr>
+<tr>
+<td><strong>Package update speed</strong></td>
+<td>Sometimes delayed</td>
+<td>Often faster updates</td>
+</tr>
+<tr>
+<td><strong>Dependency handling</strong></td>
+<td>Limited</td>
+<td>Handles dependencies well</td>
+</tr>
+<tr>
+<td><strong>Best for</strong></td>
+<td>General users, GUI apps</td>
+<td>Devs, CLI tools, portable apps</td>
+</tr>
+</tbody>
+</table>
+<p>Also 2024-12-10: <a href="2024-12-10-brew.html">Brew</a></p></main>
+    
+<div id="footer">
+<a href="index.html">⌘ Index</a>
+<a href="2022-07-15-about.html">⌘ About</a>
+<a href="2022-07-15-colophon.html">⌘ Colophon</a>
+<a href="2022-07-15-now.html">⌘ Now</a>
+<a href="search.html">⌘ Search</a>
+<a href="rss.xml">⌘ RSS</a>
+</div></body>
+</html>

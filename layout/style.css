@@ -1,0 +1,216 @@
+/* === Base Layout === */
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 650px;
+  margin: auto;
+  padding: 2rem;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+/* === Links === */
+a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === Header === */
+header {
+  margin-bottom: 2em;
+}
+
+/* === Tables === */
+table {
+  margin: 1em 0;
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+table caption {
+  margin-bottom: 0.75em;
+  font-weight: bold;
+  text-align: left;
+  color: #333;
+}
+
+thead th {
+  border-top: 1px solid #1a1a1a;
+  padding: 0.25em 0.5em;
+  background-color: #f9f9f9;
+}
+
+tbody {
+  margin-top: 0.5em;
+  border-top: 1px solid #1a1a1a;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+th {
+  padding: 0.25em 0.5em;
+}
+
+td {
+  padding: 0.125em 0.5em 0.25em;
+}
+
+/* === Blockquotes === */
+blockquote {
+  margin: 1em 0 1em 1.7em;
+  padding-left: 1em;
+  border-left: 2px solid #e6e6e6;
+  color: #606060;
+  font-style: italic;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+/* === Dropcap === */
+.dropcap {
+  color: #903;
+  float: left;
+  font-size: 3em;
+  line-height: 1;
+  padding-right: 0.1em;
+  font-weight: bold;
+}
+
+/* === Footer === */
+#footer {
+  padding-top: 2em;
+  font-size: 90%;
+  color: gray;
+  text-align: center;
+}
+
+/* === Tag Cloud === */
+.tag-cloud {
+  margin: 2em 0;
+  padding: 1em;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.tag-cloud .tag {
+  margin: 0 8px 8px 0;
+  padding: 4px 8px;
+  background: #e9ecef;
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 0.9em;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.tag-cloud .tag:hover {
+  text-decoration: underline;
+}
+
+.tag-small { font-size: 0.8em; }
+.tag-medium { font-size: 1em; font-weight: 500; }
+.tag-large { font-size: 1.2em; font-weight: bold; }
+
+/* === Responsive Images === */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+/* === Responsive Layout === */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  .tag-cloud {
+    margin-top: 2rem;
+    text-align: left;
+  }
+}
+
+/* === Dark Mode === */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  a {
+    color: #66ccff;
+  }
+
+  table {
+    color: #e0e0e0;
+  }
+
+  thead th {
+    background-color: #1e1e1e;
+    border-bottom: 2px solid #444;
+  }
+
+  tbody {
+    border-color: #444;
+  }
+
+  th, td {
+    border-color: #444;
+  }
+
+  blockquote {
+    border-left: 2px solid #444;
+    color: #aaa;
+  }
+
+  #footer {
+    color: #999;
+  }
+
+  .dropcap {
+    color: #cc99ff;
+  }
+
+  .tag-cloud {
+    background: #1e1e1e;
+  }
+
+  .tag-cloud .tag {
+    background: #2c2c2c;
+    color: #66ccff;
+  }
+}
+
+/* === Search css === */
+
+#search-box {
+  padding: 0.5em;
+  width: 100%;
+  max-width: 400px;
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+#search-results {
+  list-style: none;
+  padding: 0;
+}
+#search-results li {
+  margin-bottom: 1.5em;
+}
+#search-results h3 {
+  margin-bottom: 0.2em;
+}
+#search-results mark {
+  background-color: yellow;
+}

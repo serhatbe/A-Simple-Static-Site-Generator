@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞</title>
+    <link>https://continuum.codeberg.page</link>
+    <description>Latest posts from ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞</description>
+    <language>en-ca</language>
+    <generator>Custom Static Site Generator</generator>
+    <lastBuildDate>Mon, 02 Jun 2025 00:01:12 -0700</lastBuildDate>
+    <atom:link href="https://continuum.codeberg.page/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Search</title>
+      <link>https://continuum.codeberg.page/search.html</link>
+      <guid>https://continuum.codeberg.page/search.html</guid>
+      <pubDate>Sun, 01 Jun 2025 20:58:44 -0700</pubDate>
+      <description>No description.</description>
+    </item>
+    <item>
+      <title>A Simple Static Site Generator</title>
+      <link>https://continuum.codeberg.page/2025-06-01-ssg.html</link>
+      <guid>https://continuum.codeberg.page/2025-06-01-ssg.html</guid>
+      <pubDate>Mon, 02 Jun 2025 00:01:11 -0700</pubDate>
+      <description>A minimal and extensible static site generator.</description>
+    </item>
+    <item>
+      <title>Virtual Environment Directories</title>
+      <link>https://continuum.codeberg.page/2025-05-22-venv.html</link>
+      <guid>https://continuum.codeberg.page/2025-05-22-venv.html</guid>
+      <pubDate>Mon, 02 Jun 2025 00:01:11 -0700</pubDate>
+      <description>A few things worth noting.</description>
+    </item>
+    <item>
+      <title>Package Managers</title>
+      <link>https://continuum.codeberg.page/2025-03-17-winget.html</link>
+      <guid>https://continuum.codeberg.page/2025-03-17-winget.html</guid>
+      <pubDate>Mon, 02 Jun 2025 00:01:11 -0700</pubDate>
+      <description>A few things worth noting.</description>
+    </item>
+    <item>
+      <title>Moment of Inertia</title>
+      <link>https://continuum.codeberg.page/2024-12-11-inertia.html</link>
+      <guid>https://continuum.codeberg.page/2024-12-11-inertia.html</guid>
+      <pubDate>Mon, 02 Jun 2025 00:01:11 -0700</pubDate>
+      <description>The formula for the moment of inertia.</description>
+    </item>
+    <item>
+      <title>Homebrew</title>
+      <link>https://continuum.codeberg.page/2024-12-10-brew.html</link>
+      <guid>https://continuum.codeberg.page/2024-12-10-brew.html</guid>
+      <pubDate>Mon, 02 Jun 2025 00:01:11 -0700</pubDate>
+      <description>A few things worth noting.</description>
+    </item>
+    <item>
+      <title>Bullshit Jobs</title>
+      <link>https://continuum.codeberg.page/2023-08-11-bullshit-jobs.html</link>
+      <guid>https://continuum.codeberg.page/2023-08-11-bullshit-jobs.html</guid>
+      <pubDate>Mon, 02 Jun 2025 00:01:11 -0700</pubDate>
+      <description>No description.</description>
+    </item>
+    <item>
+      <title>Negative Utility</title>
+      <link>https://continuum.codeberg.page/2023-05-22-Negative-Utility.html</link>
+      <guid>https://continuum.codeberg.page/2023-05-22-Negative-Utility.html</guid>
+      <pubDate>Mon, 02 Jun 2025 00:01:10 -0700</pubDate>
+      <description>No description.</description>
+    </item>
+    <item>
+      <title>The Art of Practicing</title>
+      <link>https://continuum.codeberg.page/2022-08-07-The-Art-of-Practicing.html</link>
+      <guid>https://continuum.codeberg.page/2022-08-07-The-Art-of-Practicing.html</guid>
+      <pubDate>Mon, 02 Jun 2025 00:01:10 -0700</pubDate>
+      <description>No description.</description>
+    </item>
+    <item>
+      <title>What I’m up to now</title>
+      <link>https://continuum.codeberg.page/2022-07-15-now.html</link>
+      <guid>https://continuum.codeberg.page/2022-07-15-now.html</guid>
+      <pubDate>Mon, 02 Jun 2025 00:01:10 -0700</pubDate>
+      <description>An update on daily life.</description>
+    </item>
+    <item>
+      <title>Colophon</title>
+      <link>https://continuum.codeberg.page/2022-07-15-colophon.html</link>
+      <guid>https://continuum.codeberg.page/2022-07-15-colophon.html</guid>
+      <pubDate>Mon, 02 Jun 2025 00:01:10 -0700</pubDate>
+      <description>Technical information about this website for the curious.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://continuum.codeberg.page/2022-07-15-about.html</link>
+      <guid>https://continuum.codeberg.page/2022-07-15-about.html</guid>
+      <pubDate>Mon, 02 Jun 2025 00:01:10 -0700</pubDate>
+      <description>Continuum is a simple notes repository where I irregularly post my notes.</description>
+    </item>
+  </channel>
+</rss>

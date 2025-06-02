@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1><a href="index.html">ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞</a></h1>
+  <h2>Search</h2>
+  <input id="search-box" type="text" placeholder="Search ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞..." autofocus>
+  <ul id="search-results"></ul>
+
+  <script src="search.js"></script>
+  <script>
+    const search = new BlogSearch();
+    const box = document.getElementById("search-box");
+    const results = document.getElementById("search-results");
+
+    search.load().then(() => {
+      box.addEventListener("input", () => {
+        const query = box.value;
+        const matches = search.search(query);
+        results.innerHTML = "";
+        matches.forEach(entry => {
+          const li = document.createElement("li");
+          li.innerHTML = `
+            <h3><a href="${entry.url}">${search.highlight(entry.title, query)}</a></h3>
+            <p><small>${entry.date}</small></p>
+            <p>${search.highlight(search.snippet(entry.content, query), query)}</p>
+          `;
+          results.appendChild(li);
+        });
+      });
+    }).catch(err => {
+      console.error("Failed to load search index:", err);
+      results.innerHTML = "<li>Failed to load search index.</li>";
+    });
+  </script>
+<div id="footer">
+<a href="index.html">⌘ Index</a>
+<a href="2022-07-15-about.html">⌘ About</a>
+<a href="2022-07-15-colophon.html">⌘ Colophon</a>
+<a href="2022-07-15-now.html">⌘ Now</a>
+<a href="search.html">⌘ Search</a>
+<a href="rss.xml">⌘ RSS</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="generator" content="pandoc 3.7.0.2" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Virtual Environment Directories</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <meta name="description" content="A few things worth noting." />
+
+  <!-- Mermaid.js support -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+</head>
+<body>
+  <header><h1><a href="index.html">ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞</a></h1></header>
+<h1>Virtual Environment Directories</h1>
+
+
+<p class="date"><em>Last update: 2025-06-01</em></p>
+
+<main><p><strong>Tags</strong>: <a href="tag-code.html">code</a>
+<a href="tag-python.html">python</a></p>
+<p><span class="dropcap">T</span>he main difference is the virtual
+environment directory name and visibility. Both approaches work
+identically, they create isolated Python environments with their own
+packages and dependencies. The activation commands differ
+accordingly:</p>
+<ul>
+<li><code>.venv/bin/activate</code> for the hidden version</li>
+<li><code>venv/bin/activate</code> for the visible version</li>
+</ul>
+<p><strong><code>python3 -m venv .venv</code></strong> creates a hidden
+directory named <code>.venv</code> (the leading dot makes it hidden on
+Unix systems like macOS). When you run <code>ls</code> in your project
+directory, you won’t see it unless you use <code>ls -a</code> to show
+hidden files.</p>
+<p><strong><code>python3 -m venv venv</code></strong> creates a visible
+directory named <code>venv</code> that will show up in normal directory
+listings.</p>
+<p>Many developers prefer <code>.venv</code> because:</p>
+<ul>
+<li>It keeps the project directory cleaner visually</li>
+<li>It’s less likely to be accidentally committed to version control
+(though you should add it to <code>.gitignore</code> either way)</li>
+<li>It follows the convention of hidden configuration files</li>
+</ul>
+<h2 id="example-1">Example 1</h2>
+<pre><code>python3 -m venv .venv
+source .venv/bin/activate
+pip install pyyaml</code></pre>
+<p>To exit from a Python virtual environment, simply type
+<code>deactivate</code></p>
+<h2 id="example-2">Example 2</h2>
+<pre><code># Create a virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install beautifulsoup4
+pip install beautifulsoup4
+
+# Run the script
+python search_generator.py ./pages
+
+# Deactivate when done
+deactivate</code></pre></main>
+    
+<div id="footer">
+<a href="index.html">⌘ Index</a>
+<a href="2022-07-15-about.html">⌘ About</a>
+<a href="2022-07-15-colophon.html">⌘ Colophon</a>
+<a href="2022-07-15-now.html">⌘ Now</a>
+<a href="search.html">⌘ Search</a>
+<a href="rss.xml">⌘ RSS</a>
+</div></body>
+</html>
