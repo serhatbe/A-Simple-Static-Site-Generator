@@ -1,0 +1,210 @@
+[
+  {
+    "title": "About",
+    "url": "2022-07-15-about.html",
+    "date": "2022-07-15",
+    "description": "",
+    "tags": "",
+    "content": "About ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 About Last update: 2025-05-26 Continuum is a personal repository where I occasionally post my notes, starting from May 15, 2023. However older notes, written before that date, are also archived. I primarily write by hand as a means of processing my thoughts and enhancing my comprehension. These notes serve as a valuable reference for both the present and the future, and the daily practice of writing them has become a personal memory tool, especially as I age. ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Colophon",
+    "url": "2022-07-15-colophon.html",
+    "date": "2022-07-15",
+    "description": "",
+    "tags": "",
+    "content": "Colophon ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Colophon Last update: 2025-05-04 This website is generated using Pandoc. Here are the tools and technologies involved in building it. I hope ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 has a personal, hand-crafted feel, even though some command-line tools were used in its creation: Obsidian: My primary note-taking app, used for writing in Markdown format. Bash: A Unix command-line shell that automates tasks such as syncing files and building the website. Make: A build automation tool that streamlines the website generation process. Pandoc: Converts Markdown notes into HTML, making them web-ready. Zotero: Manages references and citations, integrating seamlessly with Pandoc for scholarly writing. MathJax: A JavaScript engine for rendering mathematical notation, enabling users to right-click expressions for options like copying the \\(\\LaTeX\\) code. Git: A distributed version control system I’m learning to use for managing versions and collaborating effectively. rsync: A fast, incremental file transfer tool that keeps my Obsidian and HTML folders in sync. ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "What I’m up to now",
+    "url": "2022-07-15-now.html",
+    "date": "2022-07-15",
+    "description": "",
+    "tags": "",
+    "content": "What I’m up to now ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 What I’m up to now Last update: 2025-06-01 Tags: now music Music Studying Okinawa Skies Revisited and Hava Nagila. Book(s) I’m currently reading Ear-Training and Sight-Singing Applied to Elementary Musical Theory (Wedge, 2012). Reference(s) Wedge, G. A. (2012). Ear-Training and Sight-Singing Applied to Elementary Musical Theory, a Practical and Coördinated Course for Schools and Private Study. Forgotten Books. ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "The Art of Practicing",
+    "url": "2022-08-07-The-Art-of-Practicing.html",
+    "date": "2022-08-07",
+    "description": "",
+    "tags": "",
+    "content": "The Art of Practicing ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 The Art of Practicing Last update: 2022-08-07 Tags: literature-notes music flow One Sentence Summary The Art of Practicing by (Bruser & Menuhin, 1999) contains wisdom and practical advise. Performance as a practice see page 216. A Ten-Step Approach Stretch Settle down in your environment: Be present, correct posture, breathing. Tune into your heart: Recalling profound feelings is how to tune into your heart. Use your body in a comfortable and natural way. Mechanics, habits and emotions… Follow your curiosity as you practice. Recognize three styles of struggle: Overstated passion, in which we cling to the music. Avoidance, in which we resist dealing with the music. Aggression, in which we attack the music. Drop your attitudes and be simple. Apply three listening techniques: Sing the notes and lines. Place your attention on the vibrations. Place your attention on each sound as it resonates in the space around you. Organize notes into groups, phrases, and textures. Place your attention on the sensations of touch and movement. Key Takeaways Relax, tension is your worst enemy Hear the music you’re playing Be gentle to yourself Do not over practice, short mindful work is superior to long laboured practice sessions. Miscellaneous Notes Swing the music instead of sounding like sewing machine. Group notes and play them by creating a forward motion. Focus on more on the sensations of touch and movement and use your vision mainly to check that what you fe"
+  },
+  {
+    "title": "Negative Utility",
+    "url": "2023-05-22-Negative-Utility.html",
+    "date": "2023-05-22",
+    "description": "",
+    "tags": "",
+    "content": "Negative Utility ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Negative Utility Last update: 2025-04-22 Tags: life notes – You need a book, a pen, and time. More tools give you negative utility. They won’t make the work go faster. But they will consume as much time as you are willing to waste. Productivity Advice Do the work. That’s all the productivity advice you need, and the only useful productivity advice you’re ever going to get. You can direct your attention to a million optimizations— email, meetings, notes, calendar, time tracking, goals, to-do lists, time estimates, prioritization frameworks, quantified self sensors, analytics, apps, documents, journaling. But don’t. Ignore all this, and do the work. When you do the work, everything else optimizes itself. Reference Source unknown. ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Bullshit Jobs",
+    "url": "2023-08-11-bullshit-jobs.html",
+    "date": "2023-08-11",
+    "description": "",
+    "tags": "",
+    "content": "Bullshit Jobs ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Bullshit Jobs Last update: 2023-August-11 Tags: non-fiction philosophy life bullshit literature-notes – Brief Summary A bullshit job is one that even the person doing it secretly believes need not, or should not, exist. That if the job, or even the whole industry, were to vanish, either it would make no difference to anyone, or the world might even be a slightly better place. David Graeber Graeber (2018)lists five different categories of job types: flunkies (whose job is to make the boss feel good), goons (such as corporate lobbyists whose job is to fight goons from other companies), duct tapers (who fix errors), box tickers (people who use paperwork or gestures to make it seem like they are busy) and taskmasters (people who manage but are unneeded). These jobs exist because people do not want to be accused of being lazy; modern managers want to justify their jobs and to create a sense of corporate feudalism. There are five types of bullshit jobs: Flunkies, who serve to make their superiors feel important, e.g., receptionists, administrative assistants, door attendants, store greeters, makers of websites whose sites neglect ease of use and speed for looks; Goons, who act to harm or deceive others on behalf of their employer, e.g., lobbyists, corporate lawyers, telemarketers, public relations specialists, community managers; Duct tapers, who temporarily fix problems that could be fixed permanently, e.g., programmers repairing bloated code, airline desk "
+  },
+  {
+    "title": "Homebrew",
+    "url": "2024-12-10-brew.html",
+    "date": "2024-12-10",
+    "description": "",
+    "tags": "",
+    "content": "Homebrew ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Homebrew Last update: 2025-05-18 Tags: code Homebrew, a popular package manager for macOS and Linux, simplifies software installation, management, and removal. It’s known for its ease of use and extensive library of packages, called “formulae” (core packages and CLI tools) and “casks” (GUI applications). Here are some of the cool things about Homebrew: Easy Installation: With Homebrew, you can install software and development tools with just one command. No more fussing around! Takes Care of Dependencies: Homebrew automatically takes care of all the software dependencies, so you don’t have to worry about missing any important libraries. Lightweight: Homebrew installs packages to their own directory and then symlinks their files into /opt/homebrew (on Apple Silicon). Community-Driven: Thousands of open-source contributors are always working on Homebrew, making sure that the packages are up-to-date and super secure. Extensible with Casks: Homebrew Cask lets you manage GUI applications. Just type brew install —cask firefox and you’re good to go! Commands Updating homebrew on macOS: brew update Verifying the update: brew --version Upgrading installed packages: brew upgrade Cleaning up unused files: brew cleanup Listing installed packages: brew list Checking the version of pandoc installed via homebrew: brew info pandoc Force Reinstall: brew reinstall obsidian Unlink pandoc: brew unlink pandoc Relink pandoc: brew link pandoc Automate Homebrew Commands #!/bin/bas"
+  },
+  {
+    "title": "Moment of Inertia",
+    "url": "2024-12-11-inertia.html",
+    "date": "2024-12-11",
+    "description": "",
+    "tags": "",
+    "content": "Moment of Inertia ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Moment of Inertia Last update: 2024-12-11 Tags: math Derivation of the Moment of Inertia of a Rectangle About Its Base We calculate the moment of inertia of a rectangle about its base, where the base is along the \\(x\\)-axis and the height extends from \\(y = 0\\) to \\(y = h\\). 1. Moment of Inertia Formula The formula for the moment of inertia is: \\[ I = \\int y^2 \\, dA \\] Here: - \\(y\\): distance from the axis of rotation (the base of the rectangle in this case), - \\(dA\\): the infinitesimal area element. 2. Setup for the Rectangle The rectangle has a width of \\(b\\) and height \\(h\\). The height extends from \\(y = 0\\) to \\(y = h\\). The infinitesimal area element is \\(dA = b \\, dy\\). The integral becomes: \\[ I_{\\text{base}} = \\int_{0}^{h} y^2 \\, b \\, dy \\] 3. Solve the Integral Factor \\(b\\) (constant width) outside of the integral: \\[ I_{\\text{base}} = b \\int_{0}^{h} y^2 \\, dy \\] The integral of \\(y^2\\) is: \\[ \\int y^2 \\, dy = \\frac{y^3}{3} \\] Apply the limits \\(y = 0\\) to \\(y = h\\): \\[ I_{\\text{base}} = b \\left[ \\frac{y^3}{3} \\right]_{0}^{h} \\] Substitute the limits: \\[ I_{\\text{base}} = b \\left( \\frac{h^3}{3} - \\frac{0^3}{3} \\right) \\] Simplify: \\[ I_{\\text{base}} = b \\cdot \\frac{h^3}{3} \\] 4. Final Result The moment of inertia of a rectangle about its base is: \\[ I_{\\text{base}} = \\frac{b h^3}{3} \\] Comparison with the Centroidal Moment of Inertia The moment of inertia about the base is four times greater than that about the centroidal \\(x\\)-axis: \\[ I"
+  },
+  {
+    "title": "Package Managers",
+    "url": "2025-03-17-winget.html",
+    "date": "2025-03-17",
+    "description": "",
+    "tags": "",
+    "content": "Package Managers ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Package Managers Last update: 2025-03-17 Tags: code Winget vs. Homebrew winget (Windows Package Manager) is similar to Homebrew, but for Windows. winget search <package> # Find packages winget install <package> # Install packages winget upgrade --all # Update everything winget list # See installed packages winget uninstall <package> # Remove a package Similarities Both allow installing applications with a simple command (winget install <package> vs. brew install <package>). Both handle dependencies automatically. Both have repositories (Homebrew uses Formulae & Casks, while winget uses Microsoft’s package repository). Both allow updating and uninstalling software efficiently. Differences Feature winget (Windows) Homebrew (macOS/Linux) Platform Windows 10/11 macOS, Linux Default Repository Microsoft package repository Homebrew Formulae & Casks GUI App Support Yes (e.g., winget install firefox) Yes (brew install --cask firefox) Installation Comes preinstalled in Windows 11, available for Windows 10 Must be installed manually Software Sources Official Microsoft sources, community packages Brew repository, community taps Winget vs. Scoop Scoop is an alternative package manager for Windows that focuses on developer tools and CLI utilities. It’s like Homebrew but designed for Windows users who want a Unix-like package management experience. Differences Feature winget Scoop Official support Microsoft-backed Community-driven GUI app support Yes (e.g., winge"
+  },
+  {
+    "title": "Virtual Environment Directories",
+    "url": "2025-05-22-venv.html",
+    "date": "2025-05-22",
+    "description": "",
+    "tags": "",
+    "content": "Virtual Environment Directories ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Virtual Environment Directories Last update: 2025-06-01 Tags: code python The main difference is the virtual environment directory name and visibility. Both approaches work identically, they create isolated Python environments with their own packages and dependencies. The activation commands differ accordingly: .venv/bin/activate for the hidden version venv/bin/activate for the visible version python3 -m venv .venv creates a hidden directory named .venv (the leading dot makes it hidden on Unix systems like macOS). When you run ls in your project directory, you won’t see it unless you use ls -a to show hidden files. python3 -m venv venv creates a visible directory named venv that will show up in normal directory listings. Many developers prefer .venv because: It keeps the project directory cleaner visually It’s less likely to be accidentally committed to version control (though you should add it to .gitignore either way) It follows the convention of hidden configuration files Example 1 python3 -m venv .venv source .venv/bin/activate pip install pyyaml To exit from a Python virtual environment, simply type deactivate Example 2 # Create a virtual environment python3 -m venv venv source venv/bin/activate # Install beautifulsoup4 pip install beautifulsoup4 # Run the script python search_generator.py ./pages # Deactivate when done deactivate ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "A Simple Static Site Generator",
+    "url": "2025-06-01-ssg.html",
+    "date": "2025-06-01",
+    "description": "",
+    "tags": "",
+    "content": "A Simple Static Site Generator ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 A Simple Static Site Generator Last update: 2025-06-01 Tags: code bash python A minimal, extensible static site generator using make, pandoc, and shell scripts. It converts Markdown files into styled HTML, supports tags, search indexing, RSS feeds, and versioning. Features Converts Markdown (.md) to standalone HTML using pandoc Custom HTML templates and Lua filters Auto-injected tag links Per-tag HTML pages Bibliography and citations (refs.json + apa.csl) RSS feed generation Search indexing using search_generator.py Timestamped version snapshots Local development server Requirements make pandoc python3 awk, bash, and common Unix tools Pandoc Lua filters (e.g., dropcap.lua, mdlinks.lua, etc.) Directory Structure . ├── content/ │ └── *.md # Source Markdown posts (excluding index.md) ├── pages/ │ └── *.html # Generated HTML files ├── layout/ │ ├── default.html # Main page template │ ├── tag.html # Tag page template │ └── style.css # Site stylesheet ├── scripts/ │ ├── build-index.sh │ ├── build-rss.sh │ ├── build-single-post.sh │ ├── build-tag-pages.sh │ ├── dropcap.lua │ ├── mdlinks.lua │ ├── mermaid.lua │ └── search_generator.py ├── tag_temp/ # Temporary files for tag generation ├── refs.json # Optional bibliography file ├── apa.csl # Optional CSL file for citation formatting ├── Makefile # Build automation with GNU Make └── README.md # Project documentation Setup Create a Python virtual environment. make venv Build the entire site make "
+  },
+  {
+    "title": "",
+    "url": "index.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Recently Updated 2023-05-22: Negative Utility 2022-07-15: What I’m up to now 2022-08-07: The Art of Practicing 2025-06-01: A Simple Static Site Generator 2025-05-22: Virtual Environment Directories 2025 2025-06-01: A Simple Static Site Generator 2025-05-22: Virtual Environment Directories 2025-03-17: Package Managers 2024 2024-12-11: Moment of Inertia 2024-12-10: Homebrew 2023 2023-08-11: Bullshit Jobs 2023-05-22: Negative Utility 2022 2022-08-07: The Art of Practicing 2022-07-15: What I’m up to now 2022-07-15: Colophon 2022-07-15: About Tag Cloud – bash bullshit code flow life literature-notes math music non-fiction notes now philosophy python ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Tag: --",
+    "url": "tag---.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "Tag: -- ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: – Negative Utility Bullshit Jobs ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Tag: bash",
+    "url": "tag-bash.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "Tag: bash ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: bash A Simple Static Site Generator ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Tag: bullshit",
+    "url": "tag-bullshit.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "Tag: bullshit ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: bullshit Bullshit Jobs ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Tag: code",
+    "url": "tag-code.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "Tag: code ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: code Homebrew Package Managers Virtual Environment Directories A Simple Static Site Generator ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Tag: flow",
+    "url": "tag-flow.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "Tag: flow ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: flow The Art of Practicing ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Tag: life",
+    "url": "tag-life.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "Tag: life ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: life Negative Utility Bullshit Jobs ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Tag: literature-notes",
+    "url": "tag-literature-notes.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "Tag: literature-notes ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: literature-notes The Art of Practicing Bullshit Jobs ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Tag: math",
+    "url": "tag-math.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "Tag: math ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: math Moment of Inertia ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Tag: music",
+    "url": "tag-music.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "Tag: music ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: music What I’m up to now The Art of Practicing ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Tag: non-fiction",
+    "url": "tag-non-fiction.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "Tag: non-fiction ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: non-fiction Bullshit Jobs ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Tag: notes",
+    "url": "tag-notes.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "Tag: notes ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: notes Negative Utility ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Tag: now",
+    "url": "tag-now.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "Tag: now ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: now What I’m up to now ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Tag: philosophy",
+    "url": "tag-philosophy.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "Tag: philosophy ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: philosophy Bullshit Jobs ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  },
+  {
+    "title": "Tag: python",
+    "url": "tag-python.html",
+    "date": "2025-06-02",
+    "description": "",
+    "tags": "",
+    "content": "Tag: python ℂ𝕠𝕟𝕥𝕚𝕟𝕦𝕦𝕞 Tag: python Virtual Environment Directories A Simple Static Site Generator ⌘ Index ⌘ About ⌘ Colophon ⌘ Now ⌘ Search ⌘ RSS"
+  }
+]
